@@ -5,7 +5,6 @@ import os
 import mediapipe as mp
 import pydirectinput as keyboard  
 
-# Suppress TensorFlow/Mediapipe Warnings
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
 # Mediapipe setup
